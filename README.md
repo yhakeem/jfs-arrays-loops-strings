@@ -2,8 +2,8 @@
 Lesson on Java Arrays, ArrayLists, Loops, Strings
 ## Directions to Clone and load in IntelliJ
 
-- Go to this [Repo](https://github.com/ocskier/arrays-loops-strings-debrief.git) and FORK this repository onto your github
-- Copy the HTTPS URL from the "Code" button on your GH
+- Go to this [Repo](https://github.com/DevCoder0x0/jfs-arrays-loops-strings) and FORK this repository onto your github
+- Copy the HTTPS URL from the "Code" button on your GitHub
 - Open your terminal (Git bash) and navigate to the appropriate location where you wish to save the folder to and run 
 ```bash 
 git clone URL-you-Copied-goes-here
@@ -27,7 +27,7 @@ git clone URL-you-Copied-goes-here
 ## Directions for Coding
 - Make all your instance fields private and all your classes and methods public 
 - Import the java util ArrayList class module at the top for good practice
-- Create 4 ArrayLists instance variables below the teachers one all private constant(final)
+- Create 4 ArrayLists instance variables below the teachers Array and make them all private constant(final)
    1. a new instance of a students ArrayList storing strings
    2. a new instance of a math grades ArrayList storing integers
    3. a new instance of a science grades ArrayList storing integers
@@ -79,7 +79,7 @@ System.out.println("\nStudent Grades:\n");
 ```
 - Use a for loop to loop thru students ArrayList on the class instance
 - inside the loop
-  - pass the counter var as an index to the printStudentGrades method
+  - pass the counter variable as an index to the printStudentGrades method
     to print each students info
   - Print a new line if you want it to look presentable
 
